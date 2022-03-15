@@ -1,3 +1,6 @@
+<?php
+    $page = "Index";
+?>
 <!doctype html>
 <html lang="fr">
 <head>
@@ -22,11 +25,11 @@
             </div>
             <div class="menu">
                 <ul class="flex-menu">
-                    <li class="flex-item"><a href="sdfsdf" class="link-item">About</a></li>
-                    <li class="flex-item"><a href="sdfsdf" class="link-item">Home</a></li>
-                    <li class="flex-item"><a href="sdfsdf" class="link-item">Services</a></li>
-                    <li class="flex-item"><a href="sdfsdf" class="link-item">Skills</a></li>
-                    <li class="flex-item"><a href="sdfsdf" class="link-item">Education</a></li>
+                    <li class="flex-item"><a href="index.php" class="link-item selected-page">Home</a></li>
+                    <li class="flex-item"><a href="#" class="link-item">About</a></li>
+                    <li class="flex-item"><a href="#" class="link-item">Services</a></li>
+                    <li class="flex-item"><a href="#" class="link-item">Skills</a></li>
+                    <li class="flex-item"><a href="#" class="link-item">Education</a></li>
                 </ul>
             </div>
             <div class="copyright">

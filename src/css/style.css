@@ -26,15 +26,23 @@ body {
     height: 100%;
     text-align: center;
 }
+
+.left-side h2{
+    color: rgba(0, 0, 0, 0.29);
+    font-weight: normal;
+}
+
 .right-side{
     position: relative;
     left: 25%;
     overflow: auto;
+    height: 1800px;
+    background-color: rgba(0, 0, 0, 0.78);
 }
 
 .profil-picture{
     margin: 60px auto 0 auto;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.78);
     border-radius: 50%;
     height: 200px;
     width: 200px;
@@ -58,17 +66,21 @@ body {
     padding: 5px;
 }
 
-.flex-menu .flex-item a{
+.flex-menu .flex-item .link-item{
     color: black;
     text-decoration: none;
     font-weight: bold;
 }
 .flex-menu .flex-item a:hover{
-    color: #2ea1d4;
-    text-decoration: underline;
+    color: #BDB76B;
     font-weight: bold;
 }
 
 .nom-prenom{
     margin-top: 40px
+}
+
+.flex-item .selected-page{
+    color: #BDB76B !important;
+    text-decoration: underline !important;
 }
