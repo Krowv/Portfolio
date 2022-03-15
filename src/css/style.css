@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-family: 'Julius Sans One', sans-serif;
+}
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.left-side{
+    position: fixed;
+    left: 0;
+    width: 25%;
+    background-color: #F2F5F8;
+    height: 100%;
+    text-align: center;
+}
+.right-side{
+    position: relative;
+    left: 25%;
+    overflow: auto;
+}
+
+.profil-picture{
+    margin: 60px auto 0 auto;
+    background-color: black;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.menu{
+    margin-top: 30px;
+}
+
+.copyright{
+    margin-top : 50px;
+}
+
+.flex-menu{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.flex-menu li{
+    padding: 5px;
+}
+
+.flex-menu .flex-item a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.flex-menu .flex-item a:hover{
+    color: #2ea1d4;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.nom-prenom{
+    margin-top: 40px
+}
