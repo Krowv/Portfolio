@@ -38,6 +38,7 @@ body {
     overflow: auto;
     height: 1800px;
     background-color: rgba(0, 0, 0, 0.78);
+    width: 75%;
 }
 
 .profil-picture{
@@ -84,3 +85,15 @@ body {
     color: #BDB76B !important;
     text-decoration: underline !important;
 }
+
+.big-title {
+    text-align: center;
+    position: relative;
+    top: 250px;
+}
+
+.big-title p{
+    font-size: 10em;
+    text-transform: uppercase;
+}
+
