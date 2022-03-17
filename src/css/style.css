@@ -5,7 +5,7 @@
     font-family: 'Roboto', sans-serif;
 }
 h1{
-    font-family: 'Julius Sans One', sans-serif;
+    /*font-family: 'Julius Sans One', sans-serif;*/
 }
 body {
     height: 100%;
@@ -21,29 +21,66 @@ body {
 .left-side{
     position: fixed;
     left: 0;
-    width: 25%;
-    background-color: #F2F5F8;
+    top: 0;
+    bottom: 0;
+    overflow: auto;
+    width: 270px;
+    padding: 0 15px;
+    background-color: #221f1f;
     height: 100%;
     text-align: center;
+    z-index: 10;
+}
+
+.left-side h1{
+    color: white;
+    font-weight: bold;
 }
 
 .left-side h2{
-    color: rgba(0, 0, 0, 0.29);
+    color: #3a3a3b;
     font-weight: normal;
 }
-
 .right-side{
-    position: relative;
-    left: 25%;
-    overflow: auto;
-    height: 1800px;
-    background-color: rgba(0, 0, 0, 0.78);
-    width: 75%;
+    height: 100vh;
+    background: url("../../assets/bg-site.jpg") no-repeat top center fixed;
+    background-size: cover;
+    /*background-color: rgba(0, 0, 0, 0.78);*/
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.right-side:before{
+    content: "";
+    background-color: rgba(5,13,24,0.7);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.right-side p{
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    z-index: 2;
+    font-size: 64px;
+    min-width: 300px;
+    text-align: left;
+    font-weight: bold;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: #c60909;
+    text-underline-offset: 20px;
+}
 .profil-picture{
     margin: 60px auto 0 auto;
-    background-color: rgba(0, 0, 0, 0.78);
+    background : url("../../assets/pdp.png");
+    /*background-color: rgba(0, 0, 0, 0.78);*/
     border-radius: 50%;
     height: 200px;
     width: 200px;
@@ -68,13 +105,12 @@ body {
 }
 
 .flex-menu .flex-item .link-item{
-    color: black;
+    color: #a8a9b4;
     text-decoration: none;
-    font-weight: bold;
+    text-underline-offset: 5px;
 }
 .flex-menu .flex-item a:hover{
-    color: #BDB76B;
-    font-weight: bold;
+    color: white;
 }
 
 .nom-prenom{
@@ -82,8 +118,9 @@ body {
 }
 
 .flex-item .selected-page{
-    color: #BDB76B !important;
+    color: white !important;
     text-decoration: underline !important;
+    text-decoration-color: #c60909 !important;
 }
 
 .big-title {
@@ -93,7 +130,113 @@ body {
 }
 
 .big-title p{
-    font-size: 10em;
+    font-size: 5em;
+    color: white;
     text-transform: uppercase;
 }
 
+.right-side-opacity{
+    height: 100vh;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.rightside2{
+    margin-left: 300px;
+}
+
+.copyright{
+    background-color: #3e3939;
+    text-align: center;
+    width: 270px;
+    padding: 20px 15px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    color: white;
+    z-index: 11;
+
+}
+
+.line-social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.line-social li a{
+    border-radius: 50px;
+    background-color: #3a3a3b;
+    margin-right: 10px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line-social li a:hover .iconify{
+    color: #3a3a3b;
+    background-color: white;
+}
+
+.line-social li a:hover{
+    background-color: white;
+}
+
+.reseau{
+    margin-top: 20px;
+}
+
+.icone{
+    color: white;
+}
+
+.iconify{
+    font-size: 20px;
+}
+
+.presentation{
+    margin-left: 350px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.presentation h2{
+    font-size: 2em;
+    color: #c60909;
+}
+
+.presentation h3{
+    color: #c60909;
+}
+
+.title-subtitle{
+    color: black;
+    font-weight:bold;
+    height: 3px;
+    background-color: black;
+    margin-top: 5px;
+    width: 50px;
+}
+
+.flex-presentation{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.content-text-presentation{
+    width: 50%;
+}
+
+.content-img-presentation{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-text-presentation p{
+    margin-top: 10px;
+}
