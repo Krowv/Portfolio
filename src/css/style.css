@@ -121,6 +121,7 @@ body {
     color: white !important;
     text-decoration: underline !important;
     text-decoration-color: #c60909 !important;
+    transition: 1s;
 }
 
 .big-title {
@@ -239,4 +240,136 @@ body {
 
 .content-text-presentation p{
     margin-top: 10px;
+}
+
+.opt-slam, .opt-sisr{
+    width: 50%;
+}
+
+.flex-optn{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.tac{
+    text-align: center;
+}
+h3 {
+    margin: 20px 0;
+}
+
+.skills-type{
+    margin-left : 20px;
+}
+
+.skills-type li{
+    list-style-type: disc;
+    padding: 5px;
+}
+
+.opt-slam h4, .opt-sisr h4{
+    font-style: italic;
+    margin: 20px 0 20px 0;
+}
+
+.opt-sisr, .opt-slam{
+    padding: 15px;
+}
+
+.opt-sisr p, .opt-slam p{
+    margin: 10px 0;
+}
+
+.flex-projets{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.flex-projets .card{
+    border: 1px solid black;
+    width: 30%;
+    height: 400px;
+    margin: 10px;
+}
+
+.flex-projets .card .img-cadre{
+    height: 250px;
+    border-bottom: 1px solid black;
+}
+
+.flex-projets .card .title-mission{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: White;
+    background-color: #221f1f;
+}
+
+.flex-projets .card .description-mission{
+    height: 100px;
+    background-color: #3e3939;
+}
+
+h2{
+    margin-top: 20px;
+}
+
+hr.title-subtitle{
+    margin-bottom: 20px;
+}
+
+.rupture{
+    margin: 40px 0;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.full-star{
+    font-size: 1em;
+    color: #c60909;
+}
+
+.div-hr-rupture{
+    margin: 80px 0;
+}
+
+.rupture-hr{
+    width: 40%;
+    margin: 0 auto;
+    font-weight:bold;
+    height: 3px;
+    background-color: black;
+}
+
+.empty-star{
+    font-size: 1em;
+    color: #c60909;
+}
+
+.half-star{
+    font-size: 1em;
+    color: #c60909;
+}
+
+
+.progress-bar{
+    background-color: #c60909 !important;
+}
+
+.skills span{
+    font-size: 1.4em;
+}
+
+.skills{
+    padding-right: 40px;
 }
