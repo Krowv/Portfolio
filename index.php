@@ -125,12 +125,12 @@ $page = "Index";
         <hr class="title-subtitle">
         <div class="flex-projets">
             <div class="card">
-                <a href="">
+                <a href="assets/pdf/userTicket.pdf">
                     <div class="img-cadre">
 
                     </div>
                     <div class="title-mission">
-                        <p>Inscription / Connexion</p>
+                        <p>Gestion ticket utilisateur</p>
                     </div>
                     <div class="description-mission">
 
@@ -138,7 +138,7 @@ $page = "Index";
                 </a>
             </div>
             <div class="card">
-                <a href="">
+                <a href="assets/pdf/webServer.pdf">
                     <div class="img-cadre">
 
                     </div>
