@@ -53,7 +53,7 @@ $page = "Index";
 </div>
 <div class="presentation">
     <div class="presentation-title">
-        <h2 id="about">About</h2>
+        <h2 id="about">A propos</h2>
         <hr class="title-subtitle">
     </div>
     <div class="flex-presentation">
@@ -61,24 +61,19 @@ $page = "Index";
             <img src="assets/pdp.png" alt="">
         </div>
         <div class="content-text-presentation">
-            <h3>Presentation</h3>
+            <h3>Présentation</h3>
             <hr class="title-subtitle">
-            <p>Hi, my name is DUFOUR Thomas alternant student in second year for the BTS SIO (Services Informatiques aux Organisations) at IRIS school in the Mediaschool campus. I've choose SLAM option (Solutions Logicielles et Application Métier) to become a web developer.</p>
-            <p>Hi, my name is DUFOUR Thomas alternant student in second year for the BTS SIO (Services Informatiques aux Organisations) at IRIS school in the Mediaschool campus. I've choose SLAM option (Solutions Logicielles et Application Métier) to become a web developer.</p>
-            <p>Hi, my name is DUFOUR Thomas alternant student in second year for the BTS SIO (Services Informatiques aux Organisations) at IRIS school in the Mediaschool campus. I've choose SLAM option (Solutions Logicielles et Application Métier) to become a web developer.</p>
-            <p>Hi, my name is DUFOUR Thomas alternant student in second year for the BTS SIO (Services Informatiques aux Organisations) at IRIS school in the Mediaschool campus. I've choose SLAM option (Solutions Logicielles et Application Métier) to become a web developer.</p>
+            <p>Bonjour, je suis  <i>DUFOUR Thomas</i> étudiant en alternance en <strong>BTS SIO</strong> (<i>Services informatiques aux organisations</i>) a l'école IRIS du campus Mediaschool pour l'entreprise <strong>Wendling Adhésif et équipements</strong>. J'ai choisi l'option <strong>SLAM</strong> (<i>Solution Logicielles et Application Métier</i>) pour devenir un développeur Web orienté Back-end.</p>
+            <p>Etant de base plutôt orienté <strong>Front-end</strong>, je suis rapidement passé dans une orientation plutôt <strong>Back-end</strong> pour les besoins de mon entreprise.</p>
             <br>
-            <h3>What I want to become</h3>
+            <h3>Ce que je veux devenir</h3>
             <hr class="title-subtitle">
-            <p>As i said before, i really want to become a web developer. My favorite languages are :</p>
-            <ul>
-                <li>- PHP (For symfony and Laravel)</li>
-                <li>- Javascript (With Vue JS)</li>
-            </ul>
+            <p>Comme je l'ai dis au préalable, je souhaiterais devenir un <strong>développeur Web</strong>, dans l'idéal, <i>spécialisé</i> dans les framework PHP tels que <strong>Symfony et Laravel</strong></p>
+            <p>J'ai aussi comme ambition d'apprendre un framework <strong>Javascript</strong> : <i>Vue.js</i></p>
         </div>
     </div>
     <div class="presentation-bts">
-        <h2 id="bts-sio">What's the BTS SIO</h2>
+        <h2 id="bts-sio">Qu'est ce que le BTS SIO</h2>
         <hr class="title-subtitle">
         <div class="flex-optn">
             <div class="opt-slam">
@@ -121,45 +116,45 @@ $page = "Index";
         <hr class="title-subtitle">
         <div class="flex-projets">
             <div class="card">
+                <a href="assets/pdf/userTicket.pdf">
+                    <div class="img-cadre">
+                        <img src="assets/test.jpg" alt="">
+                    </div>
+                    <div class="title-mission">
+                        <p>Gestion ticket utilisateur</p>
+                    </div>
+                    <div class="description-mission">
+                        <p>Gestion d'une erreur faite par un préparateur de commande</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="assets/pdf/webServer.pdf">
+                    <div class="img-cadre">
+                        <img src="assets/cmd.jpg" alt="">
+                    </div>
+                    <div class="title-mission">
+                        <p>Certificat SSL</p>
+                    </div>
+                    <div class="description-mission">
+                        <p>Installation d'un certificat SSL/TLS pour appel API</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
                 <a href="">
                     <div class="img-cadre">
-
+                        <img src="assets/connexion.png" alt="">
                     </div>
                     <div class="title-mission">
                         <p>Inscription / Connexion</p>
                     </div>
                     <div class="description-mission">
-
+                        <p>Création d'un formulaire d'inscription et de de connextion</p>
                     </div>
                 </a>
             </div>
-            <div class="card">
-                <a href="">
-                    <div class="img-cadre">
-
-                    </div>
-                    <div class="title-mission">
-                        <p>Serveur Web</p>
-                    </div>
-                    <div class="description-mission">
-
-                    </div>
-                </a>
-            </div>
-            <div class="card">
-                <a href="">
-                    <div class="img-cadre">
-
-                    </div>
-                    <div class="title-mission">
-                        <p>Gestion de tickets utilisateurs</p>
-                    </div>
-                    <div class="description-mission">
-
-                    </div>
-                </a>
-            </div>
-            <div class="card">
+            <!--<div class="card">
                 <a href="">
                     <div class="img-cadre">
 
@@ -197,7 +192,7 @@ $page = "Index";
 
                     </div>
                 </a>
-            </div>
+            </div>-->
         </div>
     </div>
     <div class="div-hr-rupture">
