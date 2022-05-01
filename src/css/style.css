@@ -79,7 +79,7 @@ body {
 }
 .profil-picture{
     margin: 60px auto 0 auto;
-    background : url("../../assets/pdp.png");
+    background : url("../../assets/pdp2.png");
     /*background-color: rgba(0, 0, 0, 0.78);*/
     border-radius: 50%;
     height: 200px;
@@ -144,6 +144,7 @@ body {
 .rightside2{
     margin-left: 300px;
 }
+
 
 .copyright{
     background-color: #3e3939;
@@ -228,6 +229,13 @@ body {
     justify-content: space-around;
 }
 
+.flex-reverse-presentation{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around
+}
+
 .content-text-presentation{
     width: 50%;
 }
@@ -237,6 +245,11 @@ body {
     width: 50%;
     justify-content: center;
     align-items: center;
+}
+
+.content-img-presentation img{
+    max-height: 500px;
+    max-width: 500px;
 }
 
 .content-text-presentation p{
@@ -399,4 +412,72 @@ hr.title-subtitle{
 
 .content-text-presentation p{
     font-size: 1.3em;
+}
+
+.contact-form-flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.form-flex{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.form-flex label{
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.form-flex input, .form-flex textarea{
+    padding: 10px;
+    font-size: 1.1em;
+    color: #545456;
+}
+
+.mail-contact{
+    width: 400px;
+}
+
+.form-flex textarea{
+    resize: vertical;
+}
+
+.e5-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.e5-flex .card{
+    width: 47%;
+
+}
+
+.e5-flex .card{
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.e5-flex .card .img-cadre{
+    height: 480px;
+    border-bottom: 1px solid black;
+}
+
+.e5-flex .card .title-mission{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: White;
+    background-color: #221f1f;
+}
+
+.e5-flex .card .description-mission{
+    height: 100px;
+    background-color: #3e3939;
 }
